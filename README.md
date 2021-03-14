@@ -11,11 +11,14 @@ The LoginApp is a very simple Android application that was created using Java an
 
 - Upon arriving at the application, the user is directed to the login page where they can find two textboxes to fill in their username/email and also their password. 
 
+<a href="url"><img src="https://github.com/rishiselvakumaran98/LoginApp/blob/main/img/MainPage.png" align="center" height="480" width="240" ></a>
+
+
+- Upon filling in their username and email they could click on the login button to get authenticated into their profile. If the User has not yet registered then they could click on the "Sign up here!" button to register their username and password.
+<a href="url"><img src="https://github.com/rishiselvakumaran98/LoginApp/blob/main/img/RegisterPage.png" align="center" height="480" width="240" ></a>
+
+ Upon registering the users are once again redirected back to the login page to login to their profile. After successful login, the users are rdirected to an empty user page saying "Welcome to my App".
 <a href="url"><img src="https://github.com/rishiselvakumaran98/LoginApp/blob/main/img/UserPage.png" align="center" height="480" width="240" ></a>
-
-
-- Upon filling in their username and email they could click on the login button to get authenticated into their profile. If the User has not yet registered then they could click on the "Sign up here!" button to register their username and password. Upon registering the users are once again redirected back to the login page to login to their profile. After successful login, the users are rdirected to an empty page saying "Welcome to App".
-
 
 # Special features:
 - The username and password are stored in the local android device (in a .xml file) through a HashMap function from the Java `java.util.HashMap` library.This function was very useful in hashing the value (in this case the passwords) of the user credentials with their given username and storing them in Hash table Data Structure. To resolve possible collisions in different users trying to register using the same username or email address, conditional statements were used in the main RegistrationActivity.java file to access if user has already registered for their account.
