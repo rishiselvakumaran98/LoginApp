@@ -11,7 +11,7 @@ The LoginApp is a very simple Android application that was created using Java an
 
 - Upon arriving at the application, the user is directed to the login page where they can find two textboxes to fill in their username/email and also their password. 
 
-![alt text](https://github.com/rishiselvakumaran98/LoginApp/blob/main/img/UserPage.png=100x20)
+![alt text](https://github.com/rishiselvakumaran98/LoginApp/blob/main/img/UserPage.png?){ width: 200px; }
 
 
 
